@@ -144,7 +144,7 @@ if st.button("**Convert**") :
 
    # f: This indicates that you're formatting a floating-point number (i.e., a decimal number).
     #.2: This specifies that you want the number to be displayed with 2 decimal places.
-    st.write(f"Result: {value} {convert_from} is equal to {result:2f} {convert_to}")
+    st.write(f":blue[Result: {value} {convert_from} is equal to {result:2f} {convert_to}]")
 
 
     
